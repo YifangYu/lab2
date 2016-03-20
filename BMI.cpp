@@ -3,15 +3,17 @@
 #include<fstream>
 #include<cstdlib>
 #include<string>
-#include<BMI.h>
-using namespace std;
-string data;
-float bmi,h,w;
-int BMI::hmeter(){
-h=h/100;}
-int BMI::countbmi(){
-bmi=w/(h*h);}
-string BMI::category(){
+#include"BMI.h"
+
+int BMI::hmeter(h){
+h=h/100;
+}
+
+float BMI::countbmi(bmi){
+bmi=w/(h*h);
+}
+
+string BMI::category(data){
 {if(bmi<15) {data="Very severely underweight";
 }else if(15<=bmi&&bmi<16){data="Severely underweight ";
 }else if(16<=bmi&&bmi<18.5) {data="Underweight";
@@ -21,5 +23,5 @@ string BMI::category(){
 }else if(35<=bmi&&bmi<40) {data="Obese Class II (Severely obese)";
 }else {data="Obese Class III (Very severely obese)";}
 }
-}
+;}
 

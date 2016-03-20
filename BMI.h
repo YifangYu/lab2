@@ -6,8 +6,12 @@
 using namespace std;
 class BMI{
 public:
-	hmeter();
-	countbmi();
-	category();
+int hmeter(h);
+float countbmi(bmi);
+string category(data);
+private:
+int h;
+float bmi;
+string data;
 };
 
