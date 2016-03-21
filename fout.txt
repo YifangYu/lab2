@@ -1,6 +1,0 @@
-35.1562	Obese Class II (Severely obese)
-31.25	Obese Class I (Moderately obese)
-27.3437	Overweight
-23.4375	Normal
-19.5312	Normal
-15.625	Severely underweight 

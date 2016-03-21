@@ -16,8 +16,8 @@ while(fin>>h>>w){
 bmi.hmeter(h);
 bmi.countbmi(bmii);
 bmi.category(data);
-cout<<bmi<<"\t"<<data<<endl;
-fout<<bmi<<"\t"<<data<<endl;
+
+
 }
 return 0;
 }

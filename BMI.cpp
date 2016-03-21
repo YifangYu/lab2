@@ -5,15 +5,16 @@
 #include<string>
 #include"BMI.h"
 
-int BMI::hmeter(h){
+int BMI::hmeter(int h){
 h=h/100;
 }
 
-float BMI::countbmi(bmi){
+float BMI::countbmi(float bmi){
+int w;
 bmi=w/(h*h);
 }
 
-string BMI::category(data){
+string BMI::category(string data){
 {if(bmi<15) {data="Very severely underweight";
 }else if(15<=bmi&&bmi<16){data="Severely underweight ";
 }else if(16<=bmi&&bmi<18.5) {data="Underweight";
@@ -23,5 +24,6 @@ string BMI::category(data){
 }else if(35<=bmi&&bmi<40) {data="Obese Class II (Severely obese)";
 }else {data="Obese Class III (Very severely obese)";}
 }
+cout<<bmi<<endl;
 ;}
 

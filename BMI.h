@@ -5,10 +5,11 @@
 #include<string>
 using namespace std;
 class BMI{
-public:
-int hmeter(h);
-float countbmi(bmi);
-string category(data);
+	public:
+int w;
+int hmeter(int h);
+float countbmi(float bmi);
+string category(string data);
 private:
 int h;
 float bmi;
